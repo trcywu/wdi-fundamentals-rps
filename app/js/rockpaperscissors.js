@@ -86,6 +86,13 @@ function playToFive() {
     }
     
     else {console.log("It's a tie");}
+
+ if (playerWins === 5) {
+        return "Players wins";}
+        
+        else if (computerWins === 5) {
+            return "Computer wins"
+        }
     
     return [playerWins, computerWins];
 }
